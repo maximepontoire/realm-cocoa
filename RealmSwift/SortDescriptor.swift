@@ -86,7 +86,7 @@ public func == (lhs: SortDescriptor, rhs: SortDescriptor) -> Bool {
 
 // MARK: StringLiteralConvertible
 
-extension SortDescriptor: ExpressibleByStringLiteral {
+extension SortDescriptor: StringLiteralConvertible {
 
     /// `StringLiteralType`. Required for `StringLiteralConvertible` conformance.
     public typealias UnicodeScalarLiteralType = StringLiteralType
